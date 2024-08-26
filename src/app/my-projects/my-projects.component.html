@@ -1,0 +1,27 @@
+<div class="centered">
+    <div class="divider"></div>
+    <h2 style="margin-top: 10px ;margin-bottom: 10px;">My Projects</h2>
+    <div class="divider" style="margin-bottom: 30px;"></div>
+    <mat-card appearance="outlined">
+        <mat-card-content style="width:auto;">
+            <mat-grid-list cols="4" rowHeight="3rem">
+                <mat-grid-tile  colspan="1" [rowspan]="4">
+                    <div class="proj-title">
+                        <p style="font-size:x-large;">Espresso Chatbot</p>
+                    </div>
+                </mat-grid-tile>
+                <mat-grid-tile colspan="3" [rowspan]="4">
+                    <div class="proj-description">
+                        <p style="margin-bottom: 0px;">Language and Tools Utilized:</p>
+                        <mat-chip-set>
+                            <mat-chip-set style="margin-bottom: 12px;">
+                                <mat-chip class="chip" *ngFor="let skill of skills">{{skill}}</mat-chip>
+                            </mat-chip-set>
+                        </mat-chip-set>
+                        <p *ngFor="let line of discription">-{{line}}</p>
+                    </div>
+                </mat-grid-tile>
+            </mat-grid-list>
+        </mat-card-content>
+    </mat-card>
+</div>

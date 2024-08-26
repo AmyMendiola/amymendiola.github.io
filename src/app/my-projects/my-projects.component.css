@@ -1,0 +1,52 @@
+.centered{
+    padding-top: 60px;
+    width: 80%;
+    margin: 0 auto;
+    color: aqua;
+}
+
+h2 {
+    font-family: 'Cutive Mono', monospace;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.divider{
+    background-color: aqua;
+    width: 80px;
+    height: 4px;
+    margin: 0 auto;
+
+}
+
+.proj-description{
+    display:inline-block!important;
+    padding-left: 20px;
+}
+
+::ng-deep .mat-grid-tile-content{
+    height: 100%!important;
+}
+
+::ng-deep .mat-grid-tile {
+    padding: fit-content!important;
+}
+
+.proj-title{
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-right: 2px solid aqua;
+}
+
+
+
+
+.card{
+    min-width:90%;
+    margin: 20px;
+}

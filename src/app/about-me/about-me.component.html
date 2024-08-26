@@ -1,0 +1,32 @@
+<div class="centered">
+    <div class="divider"></div>
+    <h2 style="margin-top: 10px ;margin-bottom: 10px;">About Me</h2>
+    <div class="divider" style="margin-bottom: 30px;"></div>
+    <p class="about-text">I graduated in May 2024 with a B.S. in Computer Science at UT Dallas, and I am currently persueing my M.S. in Computer Science at UT Dallas. During Summer '23 and '24 I interned at Citi as a Summer Analyst working on full-stack software development.</p>
+    <mat-grid-list [cols]="gridCols" rowHeight="3rem">
+        <mat-grid-tile [rowspan]="6">
+            <div>
+                <mat-card class="card" appearance="outlined">
+                    <mat-card-content class="card-content" style="width:auto;">
+                        <span>relevant course work</span>
+                        <mat-chip-set>
+                            <mat-chip class="chip" *ngFor="let course of coursework">{{course}}</mat-chip>
+                          </mat-chip-set>
+                        </mat-card-content>
+                </mat-card>
+            </div>
+        </mat-grid-tile>
+        <mat-grid-tile [rowspan]="6">
+            <div>
+                <mat-card class="card" appearance="outlined">
+                    <mat-card-content class="card-content" style="width:auto;">
+                        <span>skills</span>
+                        <mat-chip-set>
+                                <mat-chip class="chip" *ngFor="let skill of skills">{{skill}}</mat-chip>
+                          </mat-chip-set>
+                    </mat-card-content>
+                </mat-card>
+            </div>
+        </mat-grid-tile>
+      </mat-grid-list>
+</div>

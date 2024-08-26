@@ -1,0 +1,8 @@
+.centered{
+    padding-top: 60px;
+    padding-bottom: 50px;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+    color: aqua;
+}
