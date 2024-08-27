@@ -1,0 +1,24 @@
+<div class="container">
+    <mat-card appearance="outlined">
+        <mat-card-content style="width:auto;">
+            <mat-grid-list cols="4" rowHeight="3rem">
+                <mat-grid-tile colspan="1" [rowspan]="4">
+                    <div class="proj-title">
+                        <a style="font-size:x-large;" [href]='link'>{{name}}</a>
+                    </div>
+                </mat-grid-tile>
+                <mat-grid-tile id="description" colspan="3" [rowspan]="4">
+                    <div class="proj-description">
+                        <p style="margin-bottom: 0px;">Language and Tools Utilized:</p>
+                        <mat-chip-set>
+                            <mat-chip-set style="margin-bottom: 12px;">
+                                <mat-chip class="chip" *ngFor="let skill of skills">{{skill}}</mat-chip>
+                            </mat-chip-set>
+                        </mat-chip-set>
+                        <p *ngFor="let line of desc">-{{line}}</p>
+                    </div>
+                </mat-grid-tile>
+            </mat-grid-list>
+        </mat-card-content>
+    </mat-card>
+</div>

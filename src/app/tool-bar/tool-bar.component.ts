@@ -12,4 +12,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 })
 export class ToolBarComponent {
 
+  openResume(){
+    const path='resume/Resume_2024_AmyMendiola.pdf';
+    window.open(path, '_blank')
+  }
 }
