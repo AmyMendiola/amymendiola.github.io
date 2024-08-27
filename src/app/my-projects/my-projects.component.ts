@@ -24,7 +24,7 @@ export class MyProjectsComponent {
     { name: 'Housing Dataset Machine Learning Models', skills: ["Python", "Jupyter Notebook", "Visual Studio Code", "Kaggle"], descriptions: ["Accurately curated multiple machine learning models to predict the housing sales prices of the selected dataset","Evaluation of results and understanding of reasonings of model performance"],
       height: '3rem', link: "https://github.com/AmyMendiola/Housing-Dataset-ML-Models" },
     { name: 'Portfolio Website', skills: ["Angular", "Type Script", "HTML", "CSS", "Visual Studio Code"], descriptions: ["Created a personal website that displays information about resume, about page, projects and contact information", "Utilizes Angular material and contains page jumps"],
-      height: '3rem', link: "https://github.com/AmyMendiola/portfolio-website" },
+      height: '3rem', link: "https://github.com/AmyMendiola/amymendiola.github.io" },
     { name: 'Scratch Machine Learning Models', skills: ["Python", "Jupyter Notebook", "Visual Studio Code"], descriptions: ["Created multiple machine learning projects from scratch", "Models include: Decision Trees, K-Means, K-Medoids, K Nearest Neighbors, Linear Regression, Perceptron, SVM"],
         height: '3rem', link: "https://github.com/AmyMendiola/Scratch-ML-Models" }
 

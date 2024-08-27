@@ -13,5 +13,5 @@ import { MyProjectsComponent } from "./my-projects/my-projects.component";
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'portfolio-website';
+  title = 'amymendiola.github.io';
 }
