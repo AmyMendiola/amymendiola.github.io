@@ -1,0 +1,39 @@
+.footer-bar{
+ display: flex;
+ align-items: center;
+ height: 100%;
+ height: 60px;
+}
+
+a {
+    font-family: 'Cutive Mono', monospace !important; font-size:medium;
+}
+
+p{
+    font-family: 'Cutive Mono', monospace !important; font-size:medium;
+    color: aqua;
+    margin-bottom: 0px;
+}
+
+.socials{
+    display: flex;
+    gap: 8px;
+}
+
+.spacer{
+    flex: 1;
+}
+
+.socials a {
+    color: aqua; /* Icon color */
+    text-decoration: none;
+    margin: 0 10px;
+    display: flex;
+    font-size: 32px; /* Adjust icon size */
+    margin-right: 5px; 
+    align-items: center;
+  }
+
+  .socials a:hover {
+    color: blue;
+  }

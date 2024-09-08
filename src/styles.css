@@ -5,5 +5,6 @@ body { margin: 0;
     font-family: "Cutive Mono", monospace !important;
     font-weight: 400;
     font-style: normal;}
-html { background-color: #181c1d;  }
+html { background-color: #181c1d; 
+    scroll-behavior: smooth; }
 

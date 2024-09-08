@@ -9,3 +9,16 @@
 span{
   font-family: 'Cutive Mono', monospace;
 }
+
+.toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures toolbar stays on top of other content */
+}
+
+a{ 
+  text-decoration: none; color:aqua; 
+  font-family: 'Cutive Mono', monospace !important; font-size:medium;
+}

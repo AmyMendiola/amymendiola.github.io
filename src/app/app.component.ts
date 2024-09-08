@@ -4,11 +4,12 @@ import { ToolBarComponent } from "./tool-bar/tool-bar.component";
 import { AboutComponent } from "./about/about.component";
 import { AboutMeComponent } from "./about-me/about-me.component";
 import { MyProjectsComponent } from "./my-projects/my-projects.component";
+import { FooterComponent } from "./footer/footer.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, ToolBarComponent, AboutComponent, AboutMeComponent, MyProjectsComponent],
+  imports: [RouterOutlet, ToolBarComponent, AboutComponent, AboutMeComponent, MyProjectsComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
