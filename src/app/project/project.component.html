@@ -1,24 +1,20 @@
 <div class="container">
     <mat-card appearance="outlined">
-        <mat-card-content style="width:auto;">
-            <mat-grid-list cols="4" rowHeight="3rem">
-                <mat-grid-tile colspan="1" [rowspan]="4">
-                    <div class="proj-title">
-                        <a style="font-size:x-large;" [href]='link'>{{name}}</a>
+        <mat-card-content class="card-content">
+            <div class="project-flex">
+                <div class="proj-title">
+                    <a class="proj-link" [href]="link">{{name}}</a>
+                </div>
+                <div id="description" class="proj-description">
+                    <p class="tools-label">Language and Tools Utilized:</p>
+                    <mat-chip-set class="chip-set">
+                        <mat-chip class="chip" *ngFor="let skill of skills">{{skill}}</mat-chip>
+                    </mat-chip-set>
+                    <div class="desc-lines">
+                      <p *ngFor="let line of desc">-{{line}}</p>
                     </div>
-                </mat-grid-tile>
-                <mat-grid-tile id="description" colspan="3" [rowspan]="4">
-                    <div class="proj-description">
-                        <p style="margin-bottom: 0px;">Language and Tools Utilized:</p>
-                        <mat-chip-set>
-                            <mat-chip-set style="margin-bottom: 12px;">
-                                <mat-chip class="chip" *ngFor="let skill of skills">{{skill}}</mat-chip>
-                            </mat-chip-set>
-                        </mat-chip-set>
-                        <p *ngFor="let line of desc">-{{line}}</p>
-                    </div>
-                </mat-grid-tile>
-            </mat-grid-list>
+                </div>
+            </div>
         </mat-card-content>
     </mat-card>
 </div>

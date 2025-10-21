@@ -24,20 +24,15 @@ a:hover { text-decoration: none; color:blue; }
 a:hover, a:active { text-decoration: none; color:blue }
 
 .proj-description{
-    display:inline-flex!important;
-    padding-left: 20px; 
+    display:flex;
+    padding-left: 20px;
     border-left: 2px solid aqua;
-    height: 100%;
     flex-direction: column;
-    justify-content: center;
-}
-
-::ng-deep .mat-grid-tile-content{
-    height: 100%!important;
+    justify-content: flex-start;
 }
 
 ::ng-deep .mat-grid-tile {
-    padding: fit-content!important;
+    padding: 0.25rem;
 }
 
 .proj-title{
@@ -53,6 +48,6 @@ a:hover, a:active { text-decoration: none; color:blue }
 
 
 .card{
-    min-width:90%;
-    margin: 20px;
+    width: 100%;
+    margin: 20px 0;
 }

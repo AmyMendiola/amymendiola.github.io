@@ -21,6 +21,8 @@ export class MyProjectsComponent {
   projData = [
     { name: 'Espresso Chatbot', skills: ["Python", "Visual Studio Code"], descriptions: ["Created a Chatbot to answer user questions about espresso.", "Trained a Keras Sequential neural network model to map user questions to an accurate response"],
        height: '3rem', link: "https://github.com/AmyMendiola/Espresso_Chatbot" },
+    { name: 'Adversarial Machine Learning', skills: ["Python", "Jupyter Notebook", "Visual Studio Code"], descriptions: ["Built a reproducible attack-and-defense framework for traffic-sign image classification that implements attacks (FGSM, PGD, DeepFool) and defenses (bit-depth reduction, binary filtering, JPEG compression).", "Provided tooling, experiment scripts and notebooks to craft adversarial examples, run robustness evaluations against both standard and adversarially-trained models, and document results for reproducible research."],
+      height: '3rem', link: "https://github.com/kianlak/adverserial-ml-security" },
     { name: 'Housing Dataset Machine Learning Models', skills: ["Python", "Jupyter Notebook", "Visual Studio Code", "Kaggle"], descriptions: ["Accurately curated multiple machine learning models to predict the housing sales prices of the selected dataset","Evaluation of results and understanding of reasonings of model performance"],
       height: '3rem', link: "https://github.com/AmyMendiola/Housing-Dataset-ML-Models" },
     { name: 'Portfolio Website', skills: ["Angular", "Type Script", "HTML", "CSS", "Visual Studio Code"], descriptions: ["Created a personal website that displays information about resume, about page, projects and contact information", "Utilizes Angular material and contains page jumps"],

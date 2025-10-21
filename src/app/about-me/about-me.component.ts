@@ -16,8 +16,8 @@ import { isPlatformBrowser } from '@angular/common';
 })
 export class AboutMeComponent  {
 
-  coursework = ["Natural Language Processing", "Machine Learning", "AI", "Human Computer Interaction", "Database Design", "Design and Analysis of Computer Algorithms", "Operating Systems Concepts"]
-  skills = ["Python", "Natural Language Processing", "Machine Learning/AI", "Java", "Angular", "JavaScript", "HTML", "CSS", "Git", "Assembly Language"]
+  coursework = ["Natural Language Processing", "Big Data", "Machine Learning", "AI", "Human Computer Interaction", "Data & Application Security", "Database Design", "Design and Analysis of Computer Algorithms", "Operating Systems Concepts", "VR"]
+  skills = ["Python", "Natural Language Processing", "Machine Learning/AI", "Java", "Angular", "JavaScript", "HTML", "CSS", "Git","Assembly Language"]
 
 
   gridCols: number = 2;
